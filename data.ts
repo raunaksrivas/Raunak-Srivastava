@@ -33,21 +33,6 @@ export const EXPERIENCES: Experience[] = [
     ],
     tools: ['Project Management', 'Consulting', 'Strategic Planning', 'Technical Documentation'],
     metrics: 'Managed delivery for Fortune 500 level portfolios.'
-  },
-  {
-    id: 'exp-3',
-    company: 'Bharat School E-Learning',
-    role: 'Trainee Software Developer (Product Growth)',
-    duration: 'April 2024 - July 2024',
-    location: 'Remote',
-    image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800',
-    summary: 'Leveraged technical skills to drive product growth through user experience optimization and data-informed iterations.',
-    achievements: [
-      'Conducted A/B testing on the quizzing platform, achieving a 30% increase in user satisfaction.',
-      'Built data visualization dashboards using React and Spring Boot to track real-time marketing metrics.'
-    ],
-    tools: ['React', 'Spring Boot', 'SQL', 'A/B Testing'],
-    metrics: '30% Increase in user satisfaction.'
   }
 ];
 
@@ -57,18 +42,18 @@ export const PROJECTS: Project[] = [
     title: 'Swiggy Instamart: AOV Optimization',
     category: 'Product Strategy & Growth',
     description: 'Bridging the ₹187 gap: A strategic roadmap to increase Average Order Value.',
-    longDescription: 'This comprehensive case study analyzes the "Problem Space" of Swiggy Instamart’s AOV (₹420) versus competitor Blinkit (₹607). Using the RICE framework, I prioritized four key interventions: Limited Period Sales using scarcity principles, a revamped Customer Support desk for trust-building, intelligent "Bigger Product" upselling popups, and exclusive brand partnerships. The GTM strategy targets a 15% AOV growth within 6 months.',
+    longDescription: 'This deep-dive analysis tackles the gap between Swiggy Instamart’s AOV (₹420) and Blinkit (₹607). \n\nFocusing on the 75% non-converting new user base and the "Ayaan Mishra" persona (a Delhi-based tech professional managing family grocery needs), the study proposes four high-impact interventions: \n\n1. Limited Period Sales: Leveraging scarcity and the framing effect ("Save ₹100 on every ₹1000 spent"). \n2. Customer Support Desk: Building trust through immediate refunds and doorstep order approval. \n3. Smart Upselling: Intelligent "Bigger Product" popups at the point of addition to cart. \n4. Exclusive Access: Partnerships with unique brands and influencer-led growth. \n\nTarget Outcome: 15% AOV growth within 6 months.',
     image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=1200',
-    tags: ['AOV Growth', 'Behavioral Economics', 'GTM Strategy', 'User Persona Research']
+    tags: ['AOV Optimization', 'Behavioral Economics', 'GTM Strategy', 'RICE Framework']
   },
   {
     id: 'proj-lenskart',
     title: 'Lenskart: Retail Strategy Analysis',
     category: 'Business Insights',
     description: 'Strategic breakdown of Lenskart\'s omnichannel retail dominance and consumer psychology.',
-    longDescription: 'A deep-dive analysis of Lenskart’s unique omnichannel strategy. I examined how the brand utilizes tech-integrated physical retail stores alongside a strong digital presence to maintain market dominance in the eyewear segment. This study highlights key business insights and retail strategies that drive high conversion and brand loyalty through technical innovation and strategic market placement.',
+    longDescription: 'A critical analysis of how Lenskart bridged the digital-physical divide to dominate the eyewear market. This study explores the technical integration within their brick-and-mortar stores, the role of 3D try-on technology in conversion, and the strategic positioning that makes them a retail juggernaut. It breaks down the consumer psychology behind their membership models and the operational efficiency of their global supply chain.',
     image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&q=80&w=1200',
-    tags: ['Retail Strategy', 'Business Insights', 'Omnichannel', 'Market Analysis'],
+    tags: ['Omnichannel Strategy', 'Market Mastery', 'Consumer Psychology'],
     link: 'https://www.linkedin.com/posts/theraunaksri_retailstrategy-businessinsights-lenskart-ugcPost-7411039921131421696-hkdH'
   },
   {
