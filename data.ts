@@ -72,7 +72,7 @@ export const EXPERIENCES: Experience[] = [
     role: 'Summer Intern',
     duration: 'Jun 2022 - Jul 2022',
     location: 'India',
-    image: 'https://images.unsplash.com/photo-1474487056217-76fe722a4d95?auto=format&fit=crop&q=80&w=800',
+    image: 'https://etimg.etb2bimg.com/photo/117453520.cms',
     summary: 'Leveraged business intelligence and data analytics to streamline operational billing systems.',
     achievements: [
       'Analyzed billing systems identifying inefficiencies that reduced operational costs by 15%.',
