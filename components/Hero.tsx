@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
         <div 
           className="w-full h-full will-change-transform"
           style={{ 
-            transform: `translateY(${scrollY * 0.3}px)`,
+            transform: `translate3d(0, ${scrollY * 0.35}px, 0)`,
           }}
         >
           <img 
@@ -36,18 +36,18 @@ const Hero: React.FC = () => {
             alt="Technical Abstract"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-[#141414]/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-[#141414]/85 to-transparent" />
         <div className="absolute inset-0 netflix-gradient" />
       </div>
 
-      <div className="relative z-30 px-4 md:px-12 lg:px-16 max-w-7xl space-y-12 animate-fadeIn pt-52 md:pt-72 lg:pt-80 pb-40">
+      <div className="relative z-30 px-4 md:px-12 lg:px-16 max-w-7xl space-y-12 animate-fadeIn pt-44 md:pt-64 lg:pt-80 pb-40">
         <div className="flex items-center gap-6 mb-2">
-          <span className="w-20 h-1.5 bg-netflix-red" />
+          <span className="w-20 h-1.5 bg-netflix-red shadow-[0_0_20px_rgba(229,9,20,0.6)]" />
           <span className="text-sm md:text-base font-black uppercase tracking-[0.6em] text-netflix-red drop-shadow-[0_0_15px_rgba(229,9,20,0.8)]">Original Portfolio</span>
         </div>
         
-        <h1 className="text-6xl md:text-8xl lg:text-[11.5rem] font-black tracking-tighter leading-[1.2] -ml-2 select-none">
-          Raunak <br /> <span className="opacity-90">Srivastava</span>
+        <h1 className="text-6xl md:text-8xl lg:text-[11.5rem] font-black tracking-tighter leading-[0.95] -ml-2 select-none">
+          Raunak <br /> <span className="opacity-90 hover:opacity-100 transition-opacity duration-500 drop-shadow-[0_0_30px_rgba(255,255,255,0.1)]">Srivastava</span>
         </h1>
         
         <div className="space-y-10 pt-10">
@@ -61,23 +61,23 @@ const Hero: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-8 pt-12">
+        <div className="flex flex-wrap gap-6 md:gap-8 pt-12">
           <a 
             href={cvLink} 
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-5 bg-white text-black px-12 py-5 rounded-lg font-black text-xl hover:bg-white/90 hover:scale-[1.05] transition-all shadow-[0_20px_50px_rgba(0,0,0,0.7)] active:scale-95"
+            className="flex items-center gap-5 bg-white text-black px-10 md:px-12 py-4 md:py-5 rounded-lg font-black text-lg md:text-xl hover:bg-white/90 hover:scale-[1.05] transition-all shadow-[0_20px_50px_rgba(0,0,0,0.7)] active:scale-95"
           >
-            <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 md:w-8 md:h-8" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 21l-7-7h4V3h6v11h4l-7 7z" />
             </svg>
             DOWNLOAD CV
           </a>
           <button 
             onClick={(e) => scrollToSection(e, 'meet-me')}
-            className="flex items-center gap-5 bg-[#ffffff15] backdrop-blur-3xl text-white px-12 py-5 rounded-lg font-black text-xl hover:bg-[#ffffff25] hover:scale-[1.05] transition-all border border-[#ffffff20] shadow-2xl active:scale-95"
+            className="flex items-center gap-5 bg-[#ffffff15] backdrop-blur-3xl text-white px-10 md:px-12 py-4 md:py-5 rounded-lg font-black text-lg md:text-xl hover:bg-[#ffffff25] hover:scale-[1.05] transition-all border border-[#ffffff20] shadow-2xl active:scale-95"
           >
-            <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 md:w-8 md:h-8" fill="currentColor" viewBox="0 0 24 24">
               <path d="M8 5v14l11-7z" />
             </svg>
             WATCH INTRO
