@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Row from './components/Row';
-import ExperienceCard from './components/ExperienceCard';
-import ProjectCard from './components/ProjectCard';
-import VideoSection from './components/VideoSection';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
-import Modal from './components/Modal';
-import { EXPERIENCES, PROJECTS, SKILLS, EDUCATION } from './data';
-import { Experience, Project } from './types';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import Row from './components/Row.tsx';
+import ExperienceCard from './components/ExperienceCard.tsx';
+import ProjectCard from './components/ProjectCard.tsx';
+import VideoSection from './components/VideoSection.tsx';
+import ContactForm from './components/ContactForm.tsx';
+import Footer from './components/Footer.tsx';
+import Modal from './components/Modal.tsx';
+import { EXPERIENCES, PROJECTS, SKILLS, EDUCATION } from './data.ts';
+import { Experience, Project } from './types.ts';
 
 const App: React.FC = () => {
   const [selectedExp, setSelectedExp] = useState<Experience | null>(null);

@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Project } from '../types';
+import { Project } from '../types.ts';
 
 interface ProjectCardProps {
   project: Project;

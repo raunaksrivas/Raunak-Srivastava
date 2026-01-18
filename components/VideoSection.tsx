@@ -1,16 +1,10 @@
-
 import React, { useState } from 'react';
-import Modal from './Modal';
+import Modal from './Modal.tsx';
 
 const VideoSection: React.FC = () => {
   const [showVideo, setShowVideo] = useState(false);
 
-  // YouTube video ID from the provided link
   const videoId = "dQw4w9WgXcQ";
-  
-  // Using youtube-nocookie.com often bypasses player configuration issues in sandboxed environments.
-  // Removed origin parameter as it can cause Error 153 if not matching exactly.
-  // Added playsinline=1 and mute=1 to ensure autoplay compatibility.
   const embedUrl = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`;
 
   return (
