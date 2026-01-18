@@ -19,7 +19,7 @@ export const EXPERIENCES: Experience[] = [
     metrics: '100% On-time delivery for major international events.'
   },
   {
-    id: 'exp-2',
+    id: 'exp-riya',
     company: 'Riya Advisories & Projects',
     role: 'Project & Marketing Associate',
     duration: 'June 2025 - Aug 2025',
@@ -33,6 +33,70 @@ export const EXPERIENCES: Experience[] = [
     ],
     tools: ['Project Management', 'Consulting', 'Strategic Planning', 'Technical Documentation'],
     metrics: 'Managed delivery for Fortune 500 level portfolios.'
+  },
+  {
+    id: 'exp-bharat',
+    company: 'Bharat School E-Learning',
+    role: 'Trainee Software Developer (Product Growth)',
+    duration: 'Apr 2024 - Jul 2024',
+    location: 'Remote',
+    image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800',
+    summary: 'Focused on UX optimization and MarTech execution to drive user satisfaction and tracking precision.',
+    achievements: [
+      'Conducted A/B testing on the quizzing platform, achieving a 30% increase in user satisfaction.',
+      'Built data visualization dashboards using React and Spring Boot for marketing engagement tracking.',
+      'Implemented design improvements across core user journeys.'
+    ],
+    tools: ['React', 'Spring Boot', 'A/B Testing', 'UX Optimization'],
+    metrics: '30% Increase in User Satisfaction'
+  },
+  {
+    id: 'exp-techno',
+    company: 'TechnoSapphire',
+    role: 'Trainee Software Developer',
+    duration: 'Jan 2023 - Mar 2023',
+    location: 'Noida, India',
+    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800',
+    summary: 'Optimized site architecture and user engagement through strategic UI/UX enhancements.',
+    achievements: [
+      'Developed responsive web platforms improving user engagement metrics by 25%.',
+      'Led UI/UX enhancements that reduced bounce rates by 15% through customer journey mapping.',
+      'Engineered front-end components for a high-traffic legal service platform.'
+    ],
+    tools: ['CSS', '.NET Core', 'UI/UX Design', 'Engagement Strategy'],
+    metrics: '25% Engagement Improvement'
+  },
+  {
+    id: 'exp-railway',
+    company: 'Indian Railway',
+    role: 'Summer Intern',
+    duration: 'Jun 2022 - Jul 2022',
+    location: 'India',
+    image: 'https://images.unsplash.com/photo-1474487056217-76fe722a4d95?auto=format&fit=crop&q=80&w=800',
+    summary: 'Leveraged business intelligence and data analytics to streamline operational billing systems.',
+    achievements: [
+      'Analyzed billing systems identifying inefficiencies that reduced operational costs by 15%.',
+      'Conducted market research to identify process gaps, improving overall efficiency by 10%.',
+      'Generated comprehensive BLW billing information reports using Python.'
+    ],
+    tools: ['Python', 'Data Analytics', 'Business Intelligence', 'Process Optimization'],
+    metrics: '15% Operational Cost Reduction'
+  },
+  {
+    id: 'exp-ifortis',
+    company: 'IFORTIS WORLDWIDE',
+    role: 'Intern',
+    duration: 'Aug 2021 - Sep 2021',
+    location: 'Remote',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800',
+    summary: 'Supported brand management and operations management for global outreach initiatives.',
+    achievements: [
+      'Contributed to strategic brand positioning and outreach programs.',
+      'Supported operations management in a fast-paced global corporate environment.',
+      'Managed stakeholder communications and campaign alignment.'
+    ],
+    tools: ['Brand Management', 'Operations', 'Stakeholder Management'],
+    metrics: 'Global Outreach Coordination'
   }
 ];
 
