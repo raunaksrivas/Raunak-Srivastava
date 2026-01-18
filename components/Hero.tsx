@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Hero: React.FC = () => {
+  const [scrollY, setScrollY] = useState(0);
   const cvLink = "https://docs.google.com/document/d/18Dhqf_VB-Y01brK8Ob0H-twDVHnDLKSp/export?format=pdf";
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const scrollToSection = (e: React.MouseEvent, id: string) => {
     e.preventDefault();
@@ -13,21 +22,24 @@ const Hero: React.FC = () => {
 
   return (
     <div className="relative min-h-screen w-full flex items-start overflow-hidden">
-      {/* Background Visual */}
+      {/* Background Visual with Parallax */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1920" 
-          className="w-full h-full object-cover opacity-40 transition-all duration-[2000ms] scale-105"
-          alt="Technical Abstract"
-        />
+        <div 
+          className="w-full h-full will-change-transform"
+          style={{ 
+            transform: `translateY(${scrollY * 0.3}px)`,
+          }}
+        >
+          <img 
+            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1920" 
+            className="w-full h-full object-cover opacity-40 scale-110"
+            alt="Technical Abstract"
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-[#141414]/80 to-transparent" />
         <div className="absolute inset-0 netflix-gradient" />
       </div>
 
-      {/* 
-        Increased padding-top for total separation from Navbar.
-        Leading adjusted to [1.2] for Poppins font to ensure a visible 20px+ gap between lines.
-      */}
       <div className="relative z-30 px-4 md:px-12 lg:px-16 max-w-7xl space-y-12 animate-fadeIn pt-52 md:pt-72 lg:pt-80 pb-40">
         <div className="flex items-center gap-6 mb-2">
           <span className="w-20 h-1.5 bg-netflix-red" />
