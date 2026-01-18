@@ -1,0 +1,8 @@
+{
+  "name": "Raunak Srivastava Portfolio - Netflix Edition",
+  "description": "A premium, Netflix-inspired portfolio for Raunak Srivastava, a Product Marketing and Strategy professional, featuring cinematic transitions, horizontal scrolling, and deep dark aesthetics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
