@@ -16,20 +16,20 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, onClick }) 
         <img 
           src={experience.image} 
           alt={experience.company} 
-          className="w-full h-full object-cover group-hover:opacity-30 transition-opacity duration-500"
+          className="w-full h-full object-cover group-hover:opacity-20 transition-opacity duration-500"
         />
         
         {/* Hover Content Overlay */}
-        <div className="absolute inset-0 p-4 md:p-5 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 bg-gradient-to-t from-black via-black/90 to-transparent">
-          <div className="space-y-1.5 max-h-full overflow-hidden">
-            <h3 className="font-bold text-lg md:text-xl leading-tight text-white line-clamp-1">{experience.company}</h3>
-            <p className="text-netflix-red font-bold text-xs md:text-sm uppercase tracking-wide">{experience.role}</p>
-            <div className="flex items-center gap-2 text-[10px] md:text-xs text-gray-400">
+        <div className="absolute inset-0 p-3 md:p-5 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-1 group-hover:translate-y-0 bg-gradient-to-t from-black via-black/80 to-transparent">
+          <div className="space-y-1 max-h-full overflow-hidden">
+            <h3 className="font-bold text-base md:text-xl leading-tight text-white line-clamp-1">{experience.company}</h3>
+            <p className="text-netflix-red font-bold text-[10px] md:text-xs uppercase tracking-wide">{experience.role}</p>
+            <div className="flex items-center gap-2 text-[9px] md:text-[10px] text-gray-400">
               <span>{experience.duration}</span>
               <span>•</span>
-              <span className="text-green-500 font-bold uppercase tracking-tighter">98% Match</span>
+              <span className="text-green-500 font-bold uppercase tracking-tighter">Verified</span>
             </div>
-            <p className="text-[10px] md:text-xs text-gray-300 line-clamp-2 mt-1 leading-relaxed italic">
+            <p className="text-[9px] md:text-[11px] text-gray-300 line-clamp-2 mt-1 leading-relaxed italic">
               {experience.summary}
             </p>
           </div>
