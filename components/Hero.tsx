@@ -74,13 +74,13 @@ const Hero: React.FC = () => {
             DOWNLOAD CV
           </a>
           <button 
-            onClick={(e) => scrollToSection(e, 'meet-me')}
+            onClick={(e) => scrollToSection(e, 'projects')}
             className="flex items-center gap-5 bg-[#ffffff15] backdrop-blur-3xl text-white px-10 md:px-12 py-4 md:py-5 rounded-lg font-black text-lg md:text-xl hover:bg-[#ffffff25] hover:scale-[1.05] transition-all border border-[#ffffff20] shadow-2xl active:scale-95"
           >
             <svg className="w-6 h-6 md:w-8 md:h-8" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z" />
+              <path d="M14 10H2v4h12v-4zM22 12l-8-7v14l8-7z" />
             </svg>
-            WATCH INTRO
+            VIEW PROJECTS
           </button>
         </div>
       </div>
