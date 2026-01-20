@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 
 const Hero: React.FC = () => {
@@ -43,21 +44,21 @@ const Hero: React.FC = () => {
       <div className="relative z-30 px-4 md:px-12 lg:px-16 max-w-7xl space-y-12 animate-fadeIn pt-44 md:pt-64 lg:pt-80 pb-40">
         <div className="flex items-center gap-6 mb-2">
           <span className="w-20 h-1.5 bg-netflix-red shadow-[0_0_20px_rgba(229,9,20,0.6)]" />
-          <span className="text-sm md:text-base font-black uppercase tracking-[0.6em] text-netflix-red drop-shadow-[0_0_15px_rgba(229,9,20,0.8)]">Original Portfolio</span>
+          <span className="text-sm md:text-base font-black uppercase tracking-[0.6em] text-netflix-red drop-shadow-[0_0_15px_rgba(229,9,20,0.8)]">Product Marketing Manager</span>
         </div>
         
-        <h1 className="text-6xl md:text-8xl lg:text-[11.5rem] font-black tracking-tighter leading-[0.95] -ml-2 select-none">
-          Raunak <br /> <span className="opacity-90 hover:opacity-100 transition-opacity duration-500 drop-shadow-[0_0_30px_rgba(255,255,255,0.1)]">Srivastava</span>
+        <h1 className="text-5xl md:text-8xl lg:text-[9rem] font-black tracking-tighter leading-[0.95] -ml-2 select-none">
+          Technical <br /> <span className="opacity-90 hover:opacity-100 transition-opacity duration-500 text-netflix-red drop-shadow-[0_0_30px_rgba(229,9,20,0.4)]">GTM Strategy</span>
         </h1>
         
         <div className="space-y-10 pt-10">
           <p className="text-2xl md:text-4xl lg:text-5xl font-black text-gray-200 max-w-5xl leading-tight">
-            Product Marketing, Strategy, Consulting, <br className="hidden md:block" />
-            Technical Storytelling
+            I turn complex technical products into <br className="hidden md:block" />
+            stories customers understand and adopt.
           </p>
           
           <p className="text-gray-400 md:text-xl lg:text-2xl max-w-4xl font-medium leading-relaxed">
-            I sit at the intersection of engineering and business growth. I translate technical complexity into human stories that win markets.
+            From B.Tech IT foundations to McKinsey-trained strategy. I bridge the gap between engineering depth and market clarity for high-stakes enterprise and SaaS products.
           </p>
         </div>
 
@@ -80,7 +81,7 @@ const Hero: React.FC = () => {
             <svg className="w-6 h-6 md:w-8 md:h-8" fill="currentColor" viewBox="0 0 24 24">
               <path d="M14 10H2v4h12v-4zM22 12l-8-7v14l8-7z" />
             </svg>
-            VIEW PROJECTS
+            VIEW GTM CASE STUDIES
           </button>
         </div>
       </div>
