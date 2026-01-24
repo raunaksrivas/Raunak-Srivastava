@@ -1,3 +1,4 @@
+
 # Raunak Srivastava Portfolio - Netflix Edition
 
 A premium, high-impact personal portfolio website built with a cinematic Netflix-inspired aesthetic. Designed specifically for Product Marketing and Strategy professionals to showcase case studies with visual gravity.

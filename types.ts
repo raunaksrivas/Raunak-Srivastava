@@ -21,6 +21,7 @@ export interface Project {
   image: string;
   tags: string[];
   link?: string;
+  isGallery?: boolean; // New flag to bypass modal and link directly
 }
 
 export interface Skill {
